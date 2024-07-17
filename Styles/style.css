@@ -22,8 +22,27 @@ h1 {
 h2 {
     color: white;
     font-family: monospace;
+    margin: 20px;
 }
 
-main section img {
+h3 {
+    color: white;
+    font-family: monospace;
+}
+
+main section p {
+    color: white;
+}
+
+section ul li {
+    color: white;
+}
+
+#inicio p {
+    color: #777777;
+    font-family: monospace;
+}
+
+#inicio img {
     width: 100px;
 }
