@@ -98,17 +98,19 @@ main section ul li {
     color: white;
 }
 
-/* i n í c i o */
+.desenho-linha {
+    width: 80%;
+    height: 1px;
+    margin: 70px auto;
+    background-image: linear-gradient(to right, #D3FFF3, #357DED);
+}
 
-/* 
-        <section id="inicio">
-            <h1>Bastos</h1>
-            <p>Desenvolvedor Front-End</p>
-            <img src="../Images/pixel-art-desv.png">
-            <a href="#contato">Contate-me</a>
-            <a href="#projetos">Projetos</a>
-        </section>
- */
+main h2 {
+    margin: 30px;
+    font-size: 2em;
+}
+
+/* i n í c i o */
 
 #inicio {
     width: 100%;
