@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-/* Geral */
+/* ---------- G E R A L ---------- */
+
+/* #040926 #357DED #4EFFEF #D3FFF3 */
 
 * {
     margin: 0;
@@ -21,7 +23,7 @@ h1, h2, h3 {
     font-family: monospace;
 }
 
-/* Header */
+/* ---------- H E A D E R ---------- */
 
 header {
     display: flex;
@@ -30,6 +32,7 @@ header {
     padding: 5px 20px;
     position: sticky;
     top: 0;
+    z-index: 1;
     background-color: #040926;
 }
 
@@ -85,7 +88,7 @@ header nav div {
     cursor: pointer;
 }
 
-/* Main */
+/* ---------- M A I N ---------- */
 
 main section p {
     color: white;
@@ -95,11 +98,116 @@ main section ul li {
     color: white;
 }
 
+/* i n í c i o */
+
+/* 
+        <section id="inicio">
+            <h1>Bastos</h1>
+            <p>Desenvolvedor Front-End</p>
+            <img src="../Images/pixel-art-desv.png">
+            <a href="#contato">Contate-me</a>
+            <a href="#projetos">Projetos</a>
+        </section>
+ */
+
+#inicio {
+    width: 100%;
+    height: calc(100vh - 55px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inicio h1 {
+    color: #4EFFEF;
+    font-size: 4em;
+    font-weight: 100;
+    margin-top: 8vh;
+}
+
 #inicio p {
-    color: #777777;
+    color: rgb(200, 200, 200);
+    font-size: 1.3em;
     font-family: monospace;
 }
 
 #inicio img {
-    width: 100px;
+    width: 70vw;
+    margin-top: 6vh;
 }
+
+#inicio a {
+    width: 300px;
+    height: 50px;
+    margin: 10px 0;
+
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+
+    text-align: center;
+    align-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+
+    position: relative;
+    display: inline-block;
+    font-family: Poppins;
+    letter-spacing: 0.2em;
+    background-color: transparent;
+    text-transform: uppercase;
+    transition: 1s;
+    overflow: hidden;
+}
+
+#btn-inicio-1 {
+    color: red;
+    border: 2px solid red;
+}
+
+#btn-inicio-2 {
+    color: #D3FFF3;
+    border: 2px solid #D3FFF3;
+}
+
+#btn-inicio-1:hover{
+    background-color: red;
+    box-shadow: 0 0 25px red,
+    0 0 100px red,
+    0 0 150px red;
+}
+
+#btn-inicio-2:hover{
+    background: #D3FFF3;
+    box-shadow: 0 0 25px #D3FFF3,
+    0 0 100px #D3FFF3,
+    0 0 150px #D3FFF3;
+}
+
+.btn span {
+    position: relative;
+    display: inline-block;
+    transition: transform .5s;
+    text-shadow: 0 35px #fff;
+    transform: translateY(0px);
+}
+
+.btn:hover span.hover {
+    transform: translateY(-35px);
+}
+
+.btn span.hover {
+    transform: translateY(-35px);
+}
+
+/* p r o j e t o s */
+
+/* h a b i l i d a d e s */
+
+/* s o b r e m i m */
+
+/* r e d e s */
+
+/* c o n t a t o */
+
+/* ---------- F O O T E R ---------- */
