@@ -5,14 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio João Vitor Bastos</title>
     <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <h1>Bastos</h1>
+        <h1 id="titulo">&lt;Bastos&#47;&gt;</h1>
         <nav>
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
-            <span class="material-symbols-outlined">menu</span>
-            <ul>
+            <div onclick="animarMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="31px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </div>
+
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#sobremim">Sobre mim</a></li>
+                <li><a href="#redes">Redes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <ul class="menu-mobile" id="menu-mobile">
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
@@ -22,8 +37,8 @@
             </ul>
         </nav>
     </header>
-    <main>
 
+    <main>
         <section id="inicio">
             <h1>Bastos</h1>
             <p>Desenvolvedor Front-End</p>
@@ -118,10 +133,14 @@
             <p>Email:</p>
             <p>Mensagem:</p>
         </section>
-
     </main>
+
     <footer>
         <p>Criado por &copy;João Vitor Bastos</p>
     </footer>
+
+    <script src="../Scripts/scroll-nav.js"></script>
+    <script src="../Scripts/menu.js"></script>
+
 </body>
 </html>
