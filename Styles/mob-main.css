@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* ---------- M A I N ---------- */
+
+main section p {
+    color: white;
+}
+
+main section ul li {
+    color: white;
+}
+
+.desenho-linha {
+    width: 80%;
+    height: 1px;
+    margin: 70px auto;
+    background-image: linear-gradient(to right, #D3FFF3, #357DED);
+}
+
+main h2 {
+    margin: 30px;
+    font-size: 2em;
+}

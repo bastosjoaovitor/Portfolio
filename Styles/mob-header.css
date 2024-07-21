@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* ---------- H E A D E R ---------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #040926;
+}
+
+header #titulo {
+    margin: auto;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a {
+    display: none;
+    text-decoration: none;
+}
+
+.menu-mobile {
+    background-color: rgba(4, 9, 38, 0.6);
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 55px;
+    left: 0;
+    height: 0;
+    width: 100%;
+    visibility: hidden;
+    transition: 0.3s linear;
+    overflow: hidden;
+}
+
+.menu-mobile.abrir {
+    visibility: visible;
+    height: calc(100vh - 55px);
+}
+
+.menu-mobile li {
+    list-style-type: none;
+}
+
+.menu-mobile li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 30px;
+    font-family: monospace;
+    font-size: 1.4em;
+}
+
+header nav div {
+    padding-top: 4px;
+    cursor: pointer;
+}
