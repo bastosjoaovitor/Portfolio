@@ -139,9 +139,25 @@
         <section id="contato">
             <h2>&lt;Contato&#47;&gt;</h2>
 
-            <p>Nome:</p>
-            <p>Email:</p>
-            <p>Mensagem:</p>
+            <p>Sinta-se à vontade para enviar uma mensagem!</p>
+            
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="edeefe1d-fe78-4a03-a475-99dc8d8f3730">
+
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+                <label>Assunto</label>
+                <input type="text" name="subject" placeholder="Digite o assunto">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Digite seu email">
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+
+                <input type="text" name="honeypot" style="display: none;">
+
+                <input type="hidden" name="redirectTo" value="https://bastosjoaovitor.github.io/Portfolio/Pages/agradecimento.html">
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 

@@ -2,3 +2,51 @@
 
 /* c o n t a t o */
 
+#contato p {
+    margin: 50px auto 50px auto;
+    width: 80vw;
+    max-width: 400px;
+}
+
+#contato form {
+    width: 80vw;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+#contato form label {
+    color: white;
+    font-size: 1.3em;
+    letter-spacing: .05em;
+    font-family: monospace;
+}
+
+#contato form input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#contato form textarea {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#contato form button {
+    margin: 20px auto;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.4em;
+    font-weight: 900;
+    font-family: monospace;
+    color: rgb(0,0,0,0.7);
+    background: linear-gradient(25deg, #4EFFEF, #afffea);
+}
+
+#contato form button:hover {
+    color: black;
+}
