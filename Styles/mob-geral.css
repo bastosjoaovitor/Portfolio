@@ -22,3 +22,7 @@ h1, h2, h3 {
     color: white;
     font-family: monospace;
 }
+
+img {
+    user-select: none;
+}
