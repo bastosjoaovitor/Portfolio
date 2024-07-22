@@ -85,6 +85,10 @@
     transform: translateY(0px);
 }
 
+#btn-inicio-2 span {
+    text-shadow: 0 35px #808080;
+}
+
 .btn:hover span.hover {
     transform: translateY(-35px);
 }
@@ -93,3 +97,38 @@
     transform: translateY(-35px);
 }
 
+#redes {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+#redes li {
+    list-style-type: none;
+}
+
+#redes li a {
+    width: 40px;
+    height: 40px;
+    overflow: visible;
+}
+
+#redes li a img {
+    width: 40px;
+    height: 40px;
+    filter: grayscale(80%);
+    transition: all .2s;
+}
+
+#redes li a img:hover {
+    filter: grayscale(0%);
+}
+
+#redes #icone-github {
+    filter: brightness(70%);
+}
+
+#redes #icone-github:hover {
+    filter: brightness(100%);
+}
