@@ -2,3 +2,36 @@
 
 /* s o b r e m i m */
 
+#sobremim p {
+    width: 80vw;
+    margin: 0px auto 30px auto;
+}
+
+#sobremim div {
+    width: 75vw;
+    margin: auto;
+}
+
+#sobremim div a svg {
+    position: relative;
+    top: 7px;
+}
+
+#sobremim div a {
+    display: inline-block;
+    margin: auto;
+    padding: 10px 30px 15px 25px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    font-weight: 900;
+    font-family: monospace;
+    color: rgb(0,0,0,0.7);
+    background: linear-gradient(25deg, #4EFFEF, #afffea);
+    text-decoration: none;
+    text-align: center;
+    text-size-adjust: top;
+}
+
+#sobremim div a:hover {
+    color: black;
+}
