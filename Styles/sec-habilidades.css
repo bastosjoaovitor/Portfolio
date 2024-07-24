@@ -2,3 +2,18 @@
 
 /* h a b i l i d a d e s */
 
+#habilidades {
+    width: 65vw;
+    margin: auto;
+}
+
+#habilidades ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+#habilidades ul li {
+    list-style-image: url(../Images/icones/arrowhead-bullet.png);
+}
