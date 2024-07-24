@@ -2,15 +2,12 @@
 
 /* h a b i l i d a d e s */
 
-#habilidades {
-    width: 65vw;
-    margin: auto;
-}
-
 #habilidades ul {
+    width: 60vw;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 45px;
     gap: 30px;
 }
 
