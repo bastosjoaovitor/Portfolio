@@ -2,3 +2,14 @@
 
 /* ---------- F O O T E R ---------- */
 
+footer {
+    margin-top: 60px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
