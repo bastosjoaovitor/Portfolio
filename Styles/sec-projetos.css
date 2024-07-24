@@ -14,7 +14,8 @@
 }
 
 #div-projetos div {
-    width: 350px;
+    width: 70vw;
+    margin: auto;
     display: flex;
     flex-direction: column;
     gap: 10px;
