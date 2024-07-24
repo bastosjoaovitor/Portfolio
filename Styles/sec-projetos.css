@@ -1,3 +1,115 @@
 @charset "UTF-8";
 
 /* p r o j e t o s */
+
+#div-projetos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    gap: 40px;
+    margin: auto;
+}
+
+#div-projetos div {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(250, 250, 250, .1);
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 4px 0px, rgba(255, 255, 255, 0.12) 0px 2px 16px 0px;
+}
+
+#div-projetos div * {
+    color: rgb(255, 255, 255);
+}
+
+#div-projetos div ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 10px;
+    margin: 0px 5px;
+}
+
+#div-projetos div ul li {
+    background-color: red;
+    padding: 1px 20px;
+    font-size: .9em;
+    font-weight: 600;
+    font-family: Poppins;
+    text-align: center;
+    border-radius: 1000px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+#div-projetos div ul li:hover {
+    filter: contrast(150%);
+}
+
+#div-projetos .HTML {
+    background-color: #FC490B;
+    color: #fff;
+}
+
+#div-projetos .CSS {
+    background-color: #264DE4;
+    color: #fff;
+}
+
+#div-projetos .JAVASCRIPT {
+    background-color: #F7E018;
+    color: #000;
+}
+
+#div-projetos h3 {
+    font-size: 2em;
+    width: 90%;
+    margin: auto;
+}
+
+#div-projetos p {
+    width: 85%;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#div-projetos a {
+    width: 100px;
+    padding: 10px;
+    margin: 0px 5px;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1000px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    transition: .2s ease;
+    filter: grayscale(30%);
+}
+
+#div-projetos a:hover {
+    filter: grayscale(0%);
+    font-size: 1.1em;
+}
+
+#div-projetos .visitar-site {
+    background-image: linear-gradient(25deg, #4EFFEF, #afffea);
+}
+
+#div-projetos .visitar-github {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+#div-projetos .visitar-github:hover {
+    filter: grayscale(0%);
+    background-color: #000;
+}
