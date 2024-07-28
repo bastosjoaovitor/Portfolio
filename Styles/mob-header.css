@@ -65,3 +65,7 @@ header nav div {
     padding-top: 4px;
     cursor: pointer;
 }
+
+header nav div svg {
+    width: 39px;
+}
