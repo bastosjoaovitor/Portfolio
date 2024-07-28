@@ -51,3 +51,7 @@
 #contato form button:hover {
     color: black;
 }
+
+#contato img {
+    display: none;
+}

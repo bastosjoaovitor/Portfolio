@@ -4,6 +4,14 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+body {
+    background-color: #042606;
+}
+
+main h2 {
+    margin: 60px;
+}
+
 #div-projetos {
     flex-direction: row;
 }
@@ -15,6 +23,10 @@
 #habilidades ul {
     flex-wrap: wrap;
     height: 190px;
+}
+
+#sobremim div a {
+    margin: 20px auto 0px auto;
 }
 
 }

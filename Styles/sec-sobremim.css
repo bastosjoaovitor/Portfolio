@@ -35,3 +35,7 @@
 #sobremim div a:hover {
     color: black;
 }
+
+#sobremim img {
+    display: none;
+}

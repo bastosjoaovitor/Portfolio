@@ -4,13 +4,16 @@
 
 #habilidades ul {
     width: 60vw;
-    margin: auto;
+    margin: 45px auto 0px auto;
     display: flex;
     flex-direction: column;
-    margin-top: 45px;
     gap: 30px;
 }
 
 #habilidades ul li {
     list-style-image: url(../Images/icones/arrowhead-bullet.png);
+}
+
+#habilidades img {
+    display: none;
 }

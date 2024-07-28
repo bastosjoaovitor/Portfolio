@@ -1,3 +1,125 @@
 @charset "UTF-8";
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media screen and (min-width: 1200px) {
+
+main h2 {
+    margin: 60px 0 70px 8%;
+    font-size: 3em;
+}
+
+#div-projetos {
+    flex-direction: row;
+}
+
+#div-projetos div {
+    width: 15vw;
+    min-width: 350px;
+}
+
+#div-projetos p {
+    font-size: 1.1em;
+    margin: 5px auto 15px auto;
+}
+
+#habilidades div {
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#habilidades ul {
+    width: auto;
+    margin: 45px 10px 0 50px;
+    flex-wrap: wrap;
+    height: 350px;
+    gap: 70px;
+}
+
+#habilidades ul li {
+    font-size: 1.5em;
+    margin-right: 8vw;
+}
+
+#habilidades img {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 4px 0px, rgba(255, 255, 255, 0.12) 0px 2px 16px 0px;
+    border-radius: 15px;
+    width: 400px;
+    display: block;
+}
+
+#sobremim p {
+    width: 80%;
+    margin: 0 0 50px 0;
+    font-size: 1.5em;
+}
+
+#sobremim div {
+    width: auto;
+}
+
+#sobremim > div > div > a {
+    margin: 20px auto 0px auto;
+}
+
+#sobremim > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+}
+
+#sobremim img {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 4px 0px, rgba(255, 255, 255, 0.12) 0px 2px 16px 0px;
+    border-radius: 15px;
+    width: 35vw;
+    max-width: 600px;
+    display: block;
+}
+
+#contato > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+}
+
+#contato p {
+    font-size: 1.3em;
+}
+
+#contato form label {
+    margin-top: 10px;
+    color: white;
+    font-size: 1.6em;
+    letter-spacing: .05em;
+    font-family: monospace;
+}
+
+#contato form input {
+    font-size: 1.1em;
+}
+
+#contato form textarea {
+    font-size: 1.1em;
+}
+
+#contato img {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 4px 0px, rgba(255, 255, 255, 0.12) 0px 2px 16px 0px;
+    border-radius: 15px;
+    width: 35vw;
+    max-width: 600px;
+    display: block;
+}
+
+}
