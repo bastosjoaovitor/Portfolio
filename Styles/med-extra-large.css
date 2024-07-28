@@ -14,8 +14,7 @@ main h2 {
 }
 
 #div-projetos div {
-    width: 15vw;
-    min-width: 350px;
+    width: 350px;
 }
 
 #div-projetos p {
