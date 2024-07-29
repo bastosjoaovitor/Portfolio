@@ -99,6 +99,7 @@
 #div-projetos a:hover {
     filter: grayscale(0%);
     font-size: 1.1em;
+    padding: 8px;
 }
 
 #div-projetos .visitar-site {

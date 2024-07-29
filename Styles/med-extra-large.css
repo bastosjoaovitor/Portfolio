@@ -122,3 +122,13 @@ main h2 {
 }
 
 }
+
+
+@media screen and (min-width: 1900px) {
+
+#div-projetos div {
+    width: 300px;
+    height: auto;
+}
+
+}
