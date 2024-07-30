@@ -64,40 +64,6 @@
     border: 2px solid #D3FFF3;
 }
 
-#btn-inicio-1:hover{
-    background-color: red;
-    box-shadow: 0 0 25px red,
-    0 0 100px red,
-    0 0 150px red;
-}
-
-#btn-inicio-2:hover{
-    background: #D3FFF3;
-    box-shadow: 0 0 25px #D3FFF3,
-    0 0 100px #D3FFF3,
-    0 0 150px #D3FFF3;
-}
-
-.btn span {
-    position: relative;
-    display: inline-block;
-    transition: transform .5s;
-    text-shadow: 0 35px #fff;
-    transform: translateY(0px);
-}
-
-#btn-inicio-2 span {
-    text-shadow: 0 35px #808080;
-}
-
-.btn:hover span.hover {
-    transform: translateY(-35px);
-}
-
-.btn span.hover {
-    transform: translateY(-35px);
-}
-
 #redes {
     display: flex;
     gap: 40px;

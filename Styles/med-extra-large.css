@@ -4,222 +4,256 @@
 
 @media screen and (min-width: 1200px) {
 
-header {
-    display: flex;
-    justify-content: space-between;
-}
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
 
-header #titulo {
-    text-align: start;
-    margin: 0 0 0 8vw;
-}
+    header #titulo {
+        text-align: start;
+        margin: 0 0 0 8vw;
+    }
 
-header nav div {
-    display: none;
-}
+    header nav div {
+        display: none;
+    }
 
-.menu {
-    display: flex;
-    gap: 60px;
-    margin: 0 8vw 0 0;
-}
+    .menu {
+        display: flex;
+        gap: 60px;
+        margin: 0 8vw 0 0;
+    }
 
-.menu li a {
-    display: block;
-    font-family: monospace;
-    font-size: 1.1em;
-    color: rgb(200, 200, 200);
-    transition: .2s ease;
-    position: relative;
-}
+    .menu li a {
+        display: block;
+        font-family: monospace;
+        font-size: 1.1em;
+        color: rgb(200, 200, 200);
+        transition: .2s ease;
+        position: relative;
+    }
 
-.menu li a:hover {
-    color: rgb(255, 255, 255);
-}
+    .menu li a:hover {
+        color: rgb(255, 255, 255);
+    }
 
-.menu li a::after {
-    content: " ";
-    width: 0%;
-    height: 2px;
-    background: linear-gradient(25deg, #D3FFF3, #4EFFEF);
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    transition: .4s linear;
-}
+    .menu li a::after {
+        content: " ";
+        width: 0%;
+        height: 2px;
+        background: linear-gradient(25deg, #D3FFF3, #4EFFEF);
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        transition: .4s linear;
+    }
 
-.menu li a:hover::after {
-    width: 100%;
-}
+    .menu li a:hover::after {
+        width: 100%;
+    }
 
-.menu-mobile {
-    display: none;
-}
+    .menu-mobile {
+        display: none;
+    }
 
-main h2 {
-    margin: 60px 0 70px 8%;
-    font-size: 3em;
-}
+    main h2 {
+        margin: 60px 0 70px 8%;
+        font-size: 3em;
+    }
 
-#inicio {
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    #inicio {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-#inicio > h1 {
-    order: 1;
-    font-size: 6em;
-    margin-left: 60px;
-}
+    #inicio > h1 {
+        order: 1;
+        font-size: 6em;
+        margin-left: 60px;
+    }
 
-#inicio > p {
-    order: 2;
-    font-size: 1.6em;
-    margin-bottom: 70px;
-    margin-left: 60px;
-}
+    #inicio > p {
+        order: 2;
+        font-size: 1.6em;
+        margin-bottom: 70px;
+        margin-left: 60px;
+    }
 
-#inicio > a {
-    order: 3;
-    margin-left: 60px;
-}
+    #inicio > a {
+        order: 3;
+        margin-left: 60px;
+    }
 
-#inicio > ul {
-    order: 4;
-    margin-left: 60px;
-    margin-top: 20px;
-}
+    #btn-inicio-1:hover{
+        background-color: red;
+        box-shadow: 0 0 25px red,
+        0 0 100px red,
+        0 0 150px red;
+    }
 
-#inicio > img {
-    order: 5;
-    height: calc(100vh - 55px);
-    max-width: 60vh;
-    max-height: none;
-    object-fit: contain;
-    position: relative;
-    top: -60px;
-}
+    #btn-inicio-2:hover{
+        background: #D3FFF3;
+        box-shadow: 0 0 25px #D3FFF3,
+        0 0 100px #D3FFF3,
+        0 0 150px #D3FFF3;
+    }
 
-#div-projetos {
-    flex-direction: row;
-}
+    .btn span {
+        position: relative;
+        display: inline-block;
+        transition: transform .5s;
+        text-shadow: 0 35px #fff;
+        transform: translateY(0px);
+    }
 
-#div-projetos div {
-    width: 350px;
-}
+    #btn-inicio-2 span {
+        text-shadow: 0 35px #808080;
+    }
 
-#div-projetos p {
-    font-size: 1.1em;
-    margin: 5px auto 15px auto;
-}
+    .btn:hover span.hover {
+        transform: translateY(-35px);
+    }
 
-#habilidades div {
-    width: 75vw;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    .btn span.hover {
+        transform: translateY(-35px);
+    }
 
-#habilidades ul {
-    width: auto;
-    margin: 45px 10px 0 50px;
-    flex-wrap: wrap;
-    height: 350px;
-    gap: 70px;
-}
+    #inicio > ul {
+        order: 4;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
 
-#habilidades ul li {
-    font-size: 1.5em;
-    margin-right: 8vw;
-}
+    #inicio > img {
+        order: 5;
+        height: calc(100vh - 55px);
+        max-width: 60vh;
+        max-height: none;
+        object-fit: contain;
+        position: relative;
+        top: -60px;
+    }
 
-#habilidades img {
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 4px 0px, rgba(255, 255, 255, 0.12) 0px 2px 16px 0px;
-    border-radius: 15px;
-    width: 400px;
-    display: block;
-}
+    #div-projetos {
+        flex-direction: row;
+    }
 
-#sobremim p {
-    width: 80%;
-    margin: 0 0 50px 0;
-    font-size: 1.5em;
-}
+    #div-projetos div {
+        width: 350px;
+    }
 
-#sobremim div {
-    width: auto;
-}
+    #div-projetos p {
+        font-size: 1.1em;
+        margin: 5px auto 15px auto;
+    }
 
-#sobremim > div > div > a {
-    margin: 20px auto 0px auto;
-}
+    #habilidades div {
+        width: 75vw;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-#sobremim > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 70vw;
-    margin: auto;
-}
+    #habilidades ul {
+        width: auto;
+        margin: 45px 10px 0 50px;
+        flex-wrap: wrap;
+        height: 350px;
+        gap: 70px;
+    }
 
-#sobremim img {
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 4px 0px, rgba(255, 255, 255, 0.12) 0px 2px 16px 0px;
-    border-radius: 15px;
-    width: 35vw;
-    max-width: 600px;
-    display: block;
-}
+    #habilidades ul li {
+        font-size: 1.5em;
+        margin-right: 8vw;
+    }
 
-#contato > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 80vw;
-    margin: auto;
-}
+    #habilidades img {
+        background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 4px 0px, rgba(255, 255, 255, 0.12) 0px 2px 16px 0px;
+        border-radius: 15px;
+        width: 400px;
+        display: block;
+    }
 
-#contato p {
-    font-size: 1.3em;
-}
+    #sobremim p {
+        width: 80%;
+        margin: 0 0 50px 0;
+        font-size: 1.5em;
+    }
 
-#contato form label {
-    margin-top: 10px;
-    color: white;
-    font-size: 1.6em;
-    letter-spacing: .05em;
-    font-family: monospace;
-}
+    #sobremim div {
+        width: auto;
+    }
 
-#contato form input {
-    font-size: 1.1em;
-}
+    #sobremim > div > div > a {
+        margin: 20px auto 0px auto;
+    }
 
-#contato form textarea {
-    font-size: 1.1em;
-}
+    #sobremim > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 70vw;
+        margin: auto;
+    }
 
-#contato img {
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 4px 0px, rgba(255, 255, 255, 0.12) 0px 2px 16px 0px;
-    border-radius: 15px;
-    width: 35vw;
-    max-width: 600px;
-    display: block;
-}
+    #sobremim img {
+        background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 4px 0px, rgba(255, 255, 255, 0.12) 0px 2px 16px 0px;
+        border-radius: 15px;
+        width: 35vw;
+        max-width: 600px;
+        display: block;
+    }
+
+    #contato > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 80vw;
+        margin: auto;
+    }
+
+    #contato p {
+        font-size: 1.3em;
+    }
+
+    #contato form label {
+        margin-top: 10px;
+        color: white;
+        font-size: 1.6em;
+        letter-spacing: .05em;
+        font-family: monospace;
+    }
+
+    #contato form input {
+        font-size: 1.1em;
+    }
+
+    #contato form textarea {
+        font-size: 1.1em;
+    }
+
+    #contato img {
+        background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 4px 0px, rgba(255, 255, 255, 0.12) 0px 2px 16px 0px;
+        border-radius: 15px;
+        width: 35vw;
+        max-width: 600px;
+        display: block;
+    }
 
 }
 
 
 @media screen and (min-width: 1900px) {
 
-#div-projetos div {
-    width: 300px;
-    height: auto;
-}
+    #div-projetos div {
+        width: 300px;
+        height: auto;
+    }
 
 }
