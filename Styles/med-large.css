@@ -63,6 +63,46 @@
         margin: 60px 0 40px 60px;
     }
 
+    #inicio {
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    #inicio > h1 {
+        order: 1;
+        font-size: 6em;
+        margin-left: 5vw;
+    }
+    
+    #inicio > p {
+        order: 2;
+        font-size: 1.6em;
+        margin-bottom: 70px;
+        margin-left: 5vw;
+    }
+    
+    #inicio > a {
+        order: 3;
+        margin-left: 5vw;
+    }
+    
+    #inicio > ul {
+        order: 4;
+        margin-left: 5vw;
+        margin-top: 20px;
+    }
+    
+    #inicio > img {
+        order: 5;
+        height: calc(100vh - 55px);
+        max-width: 60vh;
+        max-height: none;
+        object-fit: contain;
+        position: relative;
+        top: -60px;
+    }
+
     #div-projetos {
         flex-direction: row;
     }

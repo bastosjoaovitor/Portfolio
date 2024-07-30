@@ -61,6 +61,45 @@ main h2 {
     font-size: 3em;
 }
 
+#inicio {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#inicio > h1 {
+    order: 1;
+    font-size: 6em;
+    margin-left: 60px;
+}
+
+#inicio > p {
+    order: 2;
+    font-size: 1.6em;
+    margin-bottom: 70px;
+    margin-left: 60px;
+}
+
+#inicio > a {
+    order: 3;
+    margin-left: 60px;
+}
+
+#inicio > ul {
+    order: 4;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#inicio > img {
+    order: 5;
+    height: calc(100vh - 55px);
+    max-width: 60vh;
+    max-height: none;
+    object-fit: contain;
+    position: relative;
+    top: -60px;
+}
+
 #div-projetos {
     flex-direction: row;
 }
